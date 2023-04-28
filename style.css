@@ -1,0 +1,108 @@
+
+
+h1{
+
+                color:#d5bdaf;
+
+                font-size: 34px;
+
+                text-align: center;
+
+}
+
+h2{
+
+                color: rgb(189, 76, 11);
+
+                font-size: 26px;
+
+                text-align: center;
+
+}
+
+ 
+
+p{
+
+                text-align: center;
+
+                font-size: 14px;
+
+}
+
+ 
+
+h3{
+
+                text-align: center;
+
+                font-size: 26px;
+
+}
+
+ 
+
+img{
+
+                width: 300px;
+
+}
+
+ 
+
+a{
+
+                text-decoration: none;
+
+                font-size: 22px;
+
+}
+
+ 
+
+.button-blue {
+
+                background-color : #1A48E3;
+
+                color: white;
+
+                padding: 16px 48px;
+
+}
+
+ 
+
+.cards {
+
+                text-align: center;
+
+}
+body{
+    background-image: url("images/Marbre.jpeg");}
+
+ .cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px ;}
+
+.photo1 {box-shadow: 10px 11px 73px -15px rgba(0,0,0,0.67);
+    border-radius: 10px;
+    margin: 20px;
+background-color: whitesmoke;}
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.footer {
+  background: #404042;
+  text-align: center;
+  padding: 24px 0;
+}
+.footer p{
+    color: white;
+}
